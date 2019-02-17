@@ -98,9 +98,6 @@
                 app:layout_constraintTop_toBottomOf="@id/tnl_date_time" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
     </LinearLayout>
-
-
 </layout>
 
