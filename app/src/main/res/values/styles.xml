@@ -6,6 +6,9 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
     </style>
 
     <style name="BorderlessButton" parent="Theme.AppCompat.Light">
@@ -18,4 +21,14 @@
         <item name="android:textSize">12sp</item>
     </style>
 
+    <style name="hint" parent="@android:style/TextAppearance">
+        <item name="colorControlNormal">@color/colorTextIcons</item>
+        <item name="colorControlActivated">@color/colorTextIcons</item>
+        <item name="colorControlHighlight">@color/colorTextIcons</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="colorAccent">#fff</item>
+    </style>
 </resources>

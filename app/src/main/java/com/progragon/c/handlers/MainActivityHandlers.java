@@ -13,6 +13,6 @@ public class MainActivityHandlers {
     }
 
     public void onGetServiceBtnClick(View view) {
-        Toast.makeText(mContext, "Button clicked!", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(mContext, "Button clicked!", Toast.LENGTH_SHORT).show();
     }
 }

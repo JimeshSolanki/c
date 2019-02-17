@@ -2,8 +2,10 @@ package com.progragon.c.activity;
 
 import android.app.Activity;
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.databinding.DataBindingUtil;
+import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
 import com.progragon.c.R;
@@ -20,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+//        setContentView(R.layout.activity_main);
         binding = DataBindingUtil.setContentView((Activity) mContext, R.layout.activity_main);
 
         handlers = new MainActivityHandlers(mContext);
